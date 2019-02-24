@@ -1,0 +1,167 @@
+/* 共通-------------------------------- */
+body{
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #151C3E;
+  font-family:'HiraginoSans-W3','Univervers','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Helvetica Neue','Arial',sans-serif;
+  letter-spacing: 1px;
+}
+
+a:link, a:visited{
+  color: #151C3E;
+  text-decoration: none;
+}
+a:hover, a:active{
+  color: #151C3E;
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+h3{
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+/* header-------------------------------- */
+
+.header-logo-orange{
+  width: 105px;
+  height: auto;
+  margin: 50px auto 0;
+}
+
+/* index/web業界仕事図鑑-------------------------------- */
+#new-content h2{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#new-content{
+  margin: 0 15px 40px;
+  padding-bottom: 35px;
+  border-radius: 30px;
+  background: #8ec5b9;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(238,238,238,0.5);
+}
+
+#new-content img{
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.more-img{
+  height: 16px;
+  margin-right: 20px;
+}
+
+.content-more{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* index/診断はこちら-------------------------------- */
+
+#diagnosis{
+  padding-top: 33px;
+  padding-bottom: 33px;
+  background: url("../img/stripe.png");
+  text-align: center;
+}
+
+#diagnosis p{
+  text-align: center
+}
+
+.button-diagnosis{
+  background: #FF7134;
+  width: 343px;
+  height: auto;
+  margin: 10px auto 0;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.button-diagnosis a{
+  color: #FFF;
+  font-size: 16px;
+  margin: auto;
+}
+
+/* index/職種一覧-------------------------------- */
+#works h2{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 16px;
+}
+
+.works-list{
+  text-align: center;
+  width: 343px;
+  margin: 0 auto 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-list li{
+  color: #FFF;
+  font-size: 16px;
+  background-color: #151C3E;
+  width: 155px;
+  height: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.works-list a{
+  color: #FFF;
+}
+
+/* index/各職種のカード-------------------------------- */
+#card-designer{
+  margin: 40px 15px 40px;
+  padding-bottom: 35px;
+  border-radius: 30px;
+  background: #8ec5b9;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(238,238,238,0.5);
+}
+
+.card-top{
+  display: flex;
+  justify-content: center;
+}
+
+.card-title{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 23px
+}
+
+.card-img{
+  width: 225pt;
+  height: auto;
+}
+
+#card-designer h4{
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 16px;
+}
+
+.memo-img img{
+  width: 40px;
+  height: auto;
+  margin-left: 16px;
+}
