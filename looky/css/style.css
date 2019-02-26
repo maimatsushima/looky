@@ -38,6 +38,41 @@ img{
   margin: auto;
 }
 
+/* card/big-------------------------------- */
+.content-card{
+  margin: 30px 16px 0;
+}
+
+.content-card h2{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.content-card h3{
+  font-size: 16px;
+  margin: 16px 10px 4px;
+  font-weight: bold;
+}
+
+.content-card p{
+  font-size: 12px;
+  margin: 0 10px 18px;
+  line-height: 20px;
+}
+
+.card-big{
+  border: 0.1rem solid;
+  border-color: rgb(243, 243, 243);
+  border-radius: 4px;
+}
+
+.card-big img{
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
 /* header orange-------------------------------- */
 .header-logo-orange{
   width: 105px;
@@ -59,6 +94,11 @@ img{
 
 .header-navy-title h1{
   width: 95px;
+  height: auto;
+}
+
+.header-navy-title h2{
+  width: 220px;
   height: auto;
 }
 
@@ -410,38 +450,25 @@ img{
 }
 
 /* webdesigner/lesson-------------------------------- */
-#to-lesson{
+#card-big{
   margin: 0 16px 55px;
 }
 
-#to-lesson h2{
+#card-big h2{
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-#to-lesson h3{
+#card-big h3{
   font-size: 16px;
   margin: 16px 10px 4px;
   font-weight: bold;
 }
 
-#to-lesson p{
+#card-big p{
   font-size: 12px;
   margin: 0 10px 18px;
   line-height: 20px;
-}
-
-.to-lesson{
-  border: 0.1rem solid;
-  border-color: rgb(243, 243, 243);
-  border-radius: 4px;
-}
-
-.to-lesson img{
-  max-width: 100%;
-  height: auto;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
 }
 
 /* diagnosis/title-------------------------------- */
@@ -471,10 +498,9 @@ img{
 } */
 
 .diagnosis-mainimg{
-  text-align: center;
   width: 349px;
   height: auto;
-  margin: 0 12px 21px;
+  margin: 0 auto 21px;
 }
 
 /* diagnosis/start-------------------------------- */
@@ -486,26 +512,4 @@ img{
 #diagnosis-start p{
   font-size: 12px;
   margin-top: 10px;
-}
-
-/* lesson/card-------------------------------- */
-.lesson-card{
-  margin: 30px 16px 0;
-}
-
-.lesson-card h2{
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.lesson-card h3{
-  font-size: 16px;
-  margin: 16px 10px 4px;
-  font-weight: bold;
-}
-
-.lesson-card p{
-  font-size: 12px;
-  margin: 0 10px 18px;
-  line-height: 20px;
 }
