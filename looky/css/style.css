@@ -219,7 +219,7 @@ img{
 }
 
 /* index/各職種のカード-------------------------------- */
-#card-designer{
+.card-works{
   margin: 30px 15px 0;
   padding:  0 15px 30px;
   border-radius: 30px;
@@ -247,7 +247,7 @@ img{
   height: auto;
 }
 
-#card-designer h4{
+.card-works h4{
   font-size: 14px;
   line-height: 26px;
   margin-top: 15px;
@@ -265,7 +265,7 @@ img{
   margin-top: 30px;
 }
 
-#card-designer ul{
+.card-works ul{
   font-size: 13px;
   line-height: 22px;
   margin-top: 10px;
