@@ -193,6 +193,14 @@ img{
 }
 
 /* index/職種一覧-------------------------------- */
+
+#workcards{
+  padding-top: 40px;
+  padding-bottom:  80px;
+  background: url("../img/bg-workcards.png");
+  text-align: center;
+}
+
 #works h2{
   font-size: 20px;
   margin-top: 50px;
