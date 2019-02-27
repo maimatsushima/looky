@@ -4,7 +4,7 @@ body{
   line-height: 1.5;
   font-weight: normal;
   color: #151C3E;
-  font-family:'HiraginoSans-W3','HiraginoSans-W5','Univervers','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Helvetica Neue','Arial',sans-serif;
+  font-family:'HiraginoSans-W3','HiraginoSans-W4','HiraginoSans-W5','HiraginoSans-W6','Univervers','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Helvetica Neue','Arial',sans-serif;
   letter-spacing: 1px;
 }
 
@@ -423,13 +423,13 @@ img{
 }
 
 .left-plan img{
-  width: 20px;
-  height: auto;
+  height: 20px;
+  weight: auto;
 }
 
 .right-time img{
-  width: 20px;
-  height: auto;
+  height: 20px;
+  weight: auto;
 }
 
 .time{
@@ -446,7 +446,7 @@ img{
 .date-img-1{
   width: 49px;
   height:  auto;
-  margin-left: 59px;
+  margin: 20px 0 20px 59px;
 }
 
 .date-img-2{
@@ -457,13 +457,13 @@ img{
 .date-img-2 img{
   width: 49px;
   height:  auto;
-  margin-right: 126px;
+  margin: 20px 126px 20px 0;
 }
 
 .date-img-3{
   width: 49px;
   height:  auto;
-  margin-left: 51px;
+  margin: 20px 0 20px 51px;
 }
 
 .date-img-4{
@@ -474,7 +474,7 @@ img{
 .date-img-4 img{
   width: 49px;
   height:  auto;
-  margin-right: 57px;
+  margin: 20px 57px 20px 0;
 }
 
 /* webdesigner/magazine-------------------------------- */
@@ -506,13 +506,13 @@ img{
 
 .to-magazine-l{
   border: 0.1rem solid;
-  border-color: rgb(243, 243, 243);
+  border-color: rgb(222, 222, 222);
   border-radius: 4px;
 }
 
 .to-magazine-r{
   border: 0.1rem solid;
-  border-color: rgb(243, 243, 243);
+  border-color: rgb(222, 222, 222);
   border-radius: 4px;
 }
 
@@ -536,6 +536,12 @@ img{
   font-size: 12px;
   margin: 0 10px 18px;
   line-height: 20px;
+}
+
+.card-big{
+  border: 0.1rem solid;
+  border-color: rgb(222, 222, 222);
+  border-radius: 4px;
 }
 
 /* diagnosis/title-------------------------------- */
