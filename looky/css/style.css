@@ -283,10 +283,11 @@ img{
 }
 
 .card-works ul{
-  font-size: 13px;
+  font-size: 12px;
   line-height: 22px;
   margin-top: 10px;
   text-align: left;
+  line-height: 24px;
 }
 
 /* index内の共通more（もっと見るボタン）-------------------------------- */
