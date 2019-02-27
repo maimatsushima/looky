@@ -164,11 +164,11 @@ img{
 .content-img{
   overflow: hidden;
   width: 100%;
-  height: 330px;
+  height:  440px;
 }
 
 .content-img img{
-  height: 330px;
+  height:  440px;
   object-fit: cover;
 }
 
@@ -233,14 +233,14 @@ img{
 /* index/各職種のカード-------------------------------- */
 .card-works{
   margin: 30px 15px 0;
-  padding:  0 15px 30px;
+  padding: 30px 15px;
   border-radius: 30px;
   background: #fff;
 }
 
 .card-top{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .card-title{
