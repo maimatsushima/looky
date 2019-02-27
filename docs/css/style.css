@@ -243,6 +243,31 @@ img{
     background-size: 160px auto;
 }
 
+.workengineer{
+    background: url(../img/i-engineer.png) right bottom no-repeat;
+    background-size: 160px auto;
+}
+
+.workmarketer{
+    background: url(../img/i-marketer.png) right bottom no-repeat;
+    background-size: 160px auto;
+}
+
+.workwriter{
+    background: url(../img/i-writer.png) right bottom no-repeat;
+    background-size: 160px auto;
+}
+
+.workanalyst{
+    background: url(../img/i-analyst.png) right bottom no-repeat;
+    background-size: 160px auto;
+}
+
+.workdirector{
+    background: url(../img/i-director.png) right bottom no-repeat;
+    background-size: 160px auto;
+}
+
 .card-top{
   height: 160px;
 }
