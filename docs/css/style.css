@@ -285,10 +285,10 @@ img{
   text-align: left;
 }
 
-.card-img{
+/* .card-img{
   width: 225px;
   height: auto;
-}
+} */
 
 .card-works h4{
   font-size: 14px;
@@ -399,6 +399,13 @@ img{
   border: 0.1rem solid;
   border-color: #151C3E;
   border-radius: 30px;
+}
+
+.titleFlag{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding-bottom: 40px;
 }
 
 .left-plan{
