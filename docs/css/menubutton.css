@@ -11,8 +11,6 @@
   color: #FFFFFF;
   font-style: inherit;
   font-weight: inherit;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   text-align: left;
   text-decoration: none;
@@ -38,7 +36,7 @@
   left: 0;
 }
 
-.menu .zdo_drawer_button {
+.menu .zdo_drawer_button{
   position: fixed;
   margin: 550px  auto 16px auto;
   display: block;
@@ -50,7 +48,7 @@
   cursor: pointer;
   position: fixed;
   top: 32px;
-  right: 32px;
+  right: 16px;
   z-index: 1001;
   text-align: center;
   outline: none;
@@ -104,9 +102,9 @@
 
 .menu .zdo_drawer_nav_wrapper {
   width: 100%;
-  height: 441px;
+  /* height: 441px; */
   transition: all 0.2s;
-  transform: translateY(441px);
+  transform: translateY(481px);
   position: fixed;
   bottom: 0;
   right: 0;
@@ -134,13 +132,26 @@
 }
 
 /*+++ Default Navigation CSS +++*/
-.menu .zdo_drawer_nav {
-  padding: 112px 24px;
+.menu .zdo_drawer_nav_wrapper {
+  padding-top: 40px;
+  padding-bottom: 86px;
 }
 
-.menu .zdo_drawer_nav li {
+.menu .zdo_drawer_nav_wrapper h1{
+  margin: 16px 16px auto 16px;
   font-size: 16px;
-  margin-bottom: 15px;
+}
+
+.menu .zdo_drawer_nav_wrapper li{
+  font-size: 16px;
+  width: 120px;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.menu .zdo_drawer_nav_wrapper .menu_nav{
+  display: flex;
+  justify-content: flex-start;
 }
 
 /*+++ Default Button Color +++*/
