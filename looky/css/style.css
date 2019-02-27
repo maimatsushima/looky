@@ -4,7 +4,7 @@ body{
   line-height: 1.5;
   font-weight: normal;
   color: #151C3E;
-  font-family:'HiraginoSans-W3','Univervers','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Helvetica Neue','Arial',sans-serif;
+  font-family:'HiraginoSans-W3','HiraginoSans-W5','Univervers','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Helvetica Neue','Arial',sans-serif;
   letter-spacing: 1px;
 }
 
@@ -270,7 +270,7 @@ img{
 }
 
 .card-memo h5{
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
 }
 
