@@ -238,15 +238,21 @@ img{
   background: #fff;
 }
 
+.workdesigner{
+    background: url(../img/i-designer.png) right bottom no-repeat;
+    background-size: 160px auto;
+}
+
 .card-top{
-  display: flex;
-  justify-content: space-between;
+  height: 160px;
 }
 
 .card-title{
   display: flex;
   align-items: flex-end;
-  margin-bottom: 23px
+  margin-bottom: 23px;
+  height: 140px;
+  /* width: 120px; */
 }
 
 .card-title h2{
