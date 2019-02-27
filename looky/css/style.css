@@ -211,7 +211,7 @@ img{
   color: #FFF;
   font-size: 16px;
   background-color: #151C3E;
-  width: 155px;
+  width: 162px;
   height: auto;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -229,7 +229,6 @@ img{
   padding:  0 15px 30px;
   border-radius: 30px;
   background: #fff;
-  box-shadow: 0px 2px 8px 0px rgba(238,238,238,0.5);
 }
 
 .card-top{
@@ -268,6 +267,11 @@ img{
   display: flex;
   justify-content: flex-start;
   margin-top: 30px;
+}
+
+.card-memo h5{
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .card-works ul{
