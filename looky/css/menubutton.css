@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-.testimg{
-text-align: right;
-}
-
-
 .menu * {
   margin: 0;
   padding: 0;
@@ -44,6 +39,8 @@ text-align: right;
 }
 
 .menu .zdo_drawer_button {
+  position: fixed;
+  margin: 550px  auto 16px auto;
   display: block;
   background: none;
   border: none;
