@@ -24,6 +24,7 @@ var html = "";
 html += '<footer>';
 html += '<div class="footer1">';
 html += '<div class="footer-menu">';
+html += '<div class="footer-arrow"><figure><img src="../img/footer-arrow.png" alt="footer-arrow"></figure>';
 html += '<ul>';
 html += '<li><a href="index.html">web業界仕事図鑑</a></li>';
 html += '<li><a href="magazine.html">マガジン</a></li>';

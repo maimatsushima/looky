@@ -139,6 +139,21 @@ img{
   padding-bottom: 18px;
 }
 
+.footer-arrow img{
+    width: 60px;
+    height: auto;
+}
+
+img.twitter_button:active{
+
+	/* 要素を若干下に下げることで、押した感じを出す。*/
+
+	/* 今いる位置から相対的に3px下に配置する。*/
+	position: relative;
+	top: 3px;
+
+}
+
 /* index/web業界仕事図鑑-------------------------------- */
 #new-content h2{
   font-size: 20px;
@@ -230,6 +245,23 @@ img{
   color: #FFF;
 }
 
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    transform: translateY(0.4rem); */
+}
+
 /* index/各職種のカード-------------------------------- */
 .card-works{
   margin: 30px 15px 0;
@@ -240,43 +272,43 @@ img{
 
 .workdesigner{
     background: url(../img/i-designer.png) right bottom no-repeat;
-    background-size: 300px auto;
+    background-size: 200px auto;
 }
 
 .workengineer{
     background: url(../img/i-engineer.png) right bottom no-repeat;
-    background-size: 160px auto;
+    background-size: 200px auto;
 }
 
 .workmarketer{
     background: url(../img/i-marketer.png) right bottom no-repeat;
-    background-size: 160px auto;
+    background-size: 200px auto;
 }
 
 .workwriter{
     background: url(../img/i-writer.png) right bottom no-repeat;
-    background-size: 160px auto;
+    background-size: 200px auto;
 }
 
 .workanalyst{
     background: url(../img/i-analyst.png) right bottom no-repeat;
-    background-size: 160px auto;
+    background-size: 200px auto;
 }
 
 .workdirector{
     background: url(../img/i-director.png) right bottom no-repeat;
-    background-size: 160px auto;
+    background-size: 200px auto;
 }
 
 .card-top{
-  height: 160px;
+  height: 140px;
 }
 
 .card-title{
   display: flex;
   align-items: flex-end;
   margin-bottom: 23px;
-  height: 140px;
+  height: 125px;
   /* width: 120px; */
 }
 

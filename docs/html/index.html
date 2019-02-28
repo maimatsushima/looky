@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>looky</title>
       <link rel="stylesheet" href="../css/reset.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
       <link rel="stylesheet" href="../css/style.css">
+
 
       <script type="text/javascript" src="../js/template.js"></script>
 
@@ -57,14 +60,14 @@
 
       <div class="works-list">
         <ul id="left">
-          <li><a href="webdesigner.html">デザイナー</a></li>
-          <li>マーケター</li>
-          <li>アナリスト</li>
+          <li><a href="#1designer">デザイナー<i class="material-icons">keyboard_arrow_down</i></a></li>
+          <li><a href="#3marketer">マーケター<i class="material-icons">keyboard_arrow_down</i></a></li>
+          <li><a href="#5analyst">アナリスト<i class="material-icons">keyboard_arrow_down</i></a></li>
         </ul>
         <ul id="right">
-          <li>エンジニア</li>
-          <li>ライター</li>
-          <li>ディレクター</li>
+        <li><a href="#2engineer">エンジニア<i class="material-icons">keyboard_arrow_down</i></a></li>
+        <li><a href="#4writer">ライター<i class="material-icons">keyboard_arrow_down</i></a></li>
+        <li><a href="#6director">ディレクター<i class="material-icons">keyboard_arrow_down</i></a></li>
         </ul>
       </div>
 
@@ -76,7 +79,7 @@
 
     <div class="card-works">
 
-      <div class="card-top workdesigner">
+      <div class="card-top workdesigner" id="1designer">
         <div class="card-title">
           <h2>デザイナー</h2>
         </div>
@@ -112,7 +115,7 @@
 
     <div class="card-works">
 
-      <div class="card-top workengineer">
+      <div class="card-top workengineer" id="2engineer">
         <div class="card-title">
           <h2>エンジニア</h2>
         </div>
@@ -148,7 +151,7 @@
 
     <div class="card-works">
 
-      <div class="card-top workmarketer">
+      <div class="card-top workmarketer" id="3marketer">
         <div class="card-title">
           <h2>マーケター</h2>
         </div>
@@ -182,7 +185,7 @@
 
 <!-- マーケターカード -->
 
-    <div class="card-works">
+    <div class="card-works" id="4writer">
 
       <div class="card-top workwriter">
         <div class="card-title">
@@ -220,7 +223,7 @@
 
     <div class="card-works">
 
-      <div class="card-top workanalyst">
+      <div class="card-top workanalyst" id="5analyst">
         <div class="card-title">
           <h2>アナリスト</h2>
         </div>
@@ -256,7 +259,7 @@
 
     <div class="card-works">
 
-      <div class="card-top workdirector">
+      <div class="card-top workdirector" id="6director">
         <div class="card-title">
           <h2>ディレクター</h2>
         </div>
@@ -293,6 +296,11 @@
     </section>
 
     <script type="text/javascript">footer();</script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+     <script src="../js/test.js"></script>
 
   </body>
 
