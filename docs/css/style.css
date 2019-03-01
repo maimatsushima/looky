@@ -510,6 +510,10 @@ img.twitter_button:active{
 }
 
 /* webdesigner/magazine-------------------------------- */
+#magazine{
+    padding-bottom: 80px;
+}
+
 #to-magazine{
   margin: 0 16px 55px;
 }
@@ -549,6 +553,10 @@ img.twitter_button:active{
 }
 
 /* webdesigner/lesson-------------------------------- */
+#lesson{
+    padding-bottom: 80px;
+}
+
 #card-big{
   margin: 0 16px 55px;
 }
