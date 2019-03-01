@@ -259,7 +259,7 @@ img.twitter_button:active{
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
-    transform: translateY(0.4rem); */
+    transform: translateY(0.4rem);
 }
 
 /* index/各職種のカード-------------------------------- */
@@ -456,12 +456,12 @@ img.twitter_button:active{
 
 .left-plan img{
   height: 20px;
-  weight: auto;
+  height: auto;
 }
 
 .right-time img{
   height: 20px;
-  weight: auto;
+  height: auto;
 }
 
 .time{
@@ -617,4 +617,84 @@ img.twitter_button:active{
 #diagnosis-start p{
   font-size: 12px;
   margin-top: 10px;
+}
+
+/* article/-------------------------------- */
+#article-title{
+  margin: 20px 16px 20px;
+  line-height: 30px;
+}
+
+#article-title h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#article-title p{
+  font-size: 14px;
+}
+
+#article-text{
+  margin: 20px 16px 20px;
+  line-height: 30px;
+}
+
+#article-text h3{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#article-text p{
+  font-size: 14px;
+}
+
+.editor{
+  text-align: right;
+  margin: 20px 0 40px;
+}
+
+#share{
+  padding: 20px 16px 20px;
+  margin-bottom: 40px;
+  background: url(../img/bg-stripe.png);
+}
+
+#share h2{
+  font-size: 16px;
+}
+
+.share-button{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 20px;
+}
+
+.share-button a{
+  color: #fff;
+}
+
+.fab{
+  font-size: 22px;
+  margin: 8px;
+  transform: translateY(0.1rem);
+}
+
+.share-facebook{
+  width: 162px;
+  background-color: rgb(66, 103, 178);
+  border-radius: 5px;
+}
+
+.share-twitter{
+  width: 162px;
+  color: #FFF;
+  background-color: rgb(29, 161, 242);
+  border-radius: 5px;
+}
+
+.page-back{
+  text-align: center;
+  margin-bottom: 60px;
 }
