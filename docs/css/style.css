@@ -137,31 +137,34 @@ img{
 }
 
 /* footer-------------------------------- */
-.footer-menu a{
-  color: #FFFFFF;
-}
-
 .footer1{
   color: #FFFFFF;
-  padding-top: 118px;
+  padding-top: 30px;
   padding-bottom: 60px;
   background-color: #151C3E;
   text-align: center;
 }
 
-.footer1 img{
-  width: 84px;
-  height: auto;
-}
-
-.footer-menu li{
-  padding-top: 18px;
-  padding-bottom: 18px;
+.footer-menu a{
+  color: #FFFFFF;
 }
 
 .footer-arrow img{
     width: 60px;
     height: auto;
+    padding-bottom: 30px;
+}
+
+.footer-logo-orange img{
+  width: 84px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.footer-menu li{
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 img.twitter_button:active{
