@@ -27,6 +27,8 @@
 
     margin: 0;
     padding: 0;
+
+    border-radius: 30px;
 }
 .slick-list:focus
 {
@@ -116,4 +118,17 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.prev{
+    position: absolute;
+    left: -10px;
+    top: 100px;
+    z-index: 10;
+}
+
+.next{
+    position: absolute;
+    right: -10px;
+    top: 100px;
 }

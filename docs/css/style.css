@@ -176,7 +176,6 @@ img.twitter_button:active{
   border-radius: 30px;
   background: #fff;
   box-shadow: 0px 2px 8px 0px rgba(238,238,238,0.5);
-  overflow: hidden;
 }
 
 .content-img{
@@ -685,6 +684,7 @@ img.twitter_button:active{
   display: flex;
   justify-content: space-between;
   margin: 20px auto 20px;
+  line-height: 3.5;
 }
 
 .share-button a{
@@ -695,7 +695,7 @@ img.twitter_button:active{
 .fab{
   font-size: 20px;
   margin: 8px;
-  transform: translateY(0.4rem);
+  transform: translateY(0.1rem);
 }
 
 .share-facebook{
