@@ -25,4 +25,21 @@ $(function () {
 		        $('html, body').animate({scrollTop: targetPosY}, 1000);
 		    });
 
-})
+
+	$(window).on('scroll',function(){
+					var dy = $(this).scrollTop();
+					// console.log(dy);
+					var pageMenu = $('footer').offset().top;
+					console.log(pageMenu);
+
+					if(dy >= pageMenu - $(window).height()){
+						$('.zdo_drawer_button').addClass('fadeout');
+						console.log("footerに入ったよ");
+					} else{
+						$('.zdo_drawer_button').removeClass('fadeout');
+						console.log("footerでた");
+					}
+
+	    });
+
+  });

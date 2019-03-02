@@ -43,16 +43,20 @@
   background: none;
   border: none;
   padding: 0;
-  width: 68px;
-  height: 68px;
   letter-spacing: 0.1em;
   cursor: pointer;
   position: fixed;
-  bottom: 0px;
-  right: 30px;
+  bottom: 68px;
+  right: 98px;
   z-index: 1001;
   text-align: center;
   outline: none;
+  transition: all 0.8s ease-out 0s;
+}
+
+.menu .zdo_drawer_button.fadeout{
+  /* opacity: 0; */
+  transform: translateY(200px);
 }
 
 .menu .zdo_drawer_button.active {
@@ -97,23 +101,23 @@
   display: block;
   width: 26px;
   height: 2px;
-  margin: 7px auto;
+  margin: 34px auto;
   transition: 0.8s;
   transform-origin: 0 0;
 }
 
 .menu .zdo_drawer_bar1 {
-  top: 58px;
+  top: 27px;
   left: 22px;
 }
 
 .menu .zdo_drawer_bar2 {
-  top: 68px;
+  top: 37px;
   left: 22px;
 }
 
 .menu .zdo_drawer_bar3 {
-  top: 78px;
+  top: 47px;
   left: 22px;
 }
 
@@ -140,7 +144,7 @@
 .menu .zdo_drawer_nav_wrapper {
   width: 100%;
   /* height: 441px; */
-  transition: all 0.2s;
+  transition: all 0.8s;
   transform: translateY(481px);
   position: fixed;
   bottom: 0;
@@ -205,9 +209,4 @@
     border-color: rgb(255, 113, 52);
     width: 68px;
     height: 68px;
-    margin-bottom: 60px;
 }
-
-/* ポジション0
-アドクラス（トグルクラス）入れる
-トランスフォームであげる */
