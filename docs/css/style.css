@@ -319,11 +319,6 @@ img.twitter_button:active{
   text-align: left;
 }
 
-/* .card-img{
-  width: 225px;
-  height: auto;
-} */
-
 .card-works h4{
   font-size: 14px;
   line-height: 26px;
@@ -355,6 +350,7 @@ img.twitter_button:active{
   margin-top: 10px;
   text-align: left;
   line-height: 24px;
+  margin-bottom: 20px;
 }
 
 /* index内の共通more（もっと見るボタン）-------------------------------- */

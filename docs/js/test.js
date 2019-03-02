@@ -13,7 +13,7 @@ $(function () {
 
 
 	$('.footer-arrow').on('click',function(){
-	        $('html, body').animate({scrollTop: 0}, 500);
+	        $('html, body').animate({scrollTop: 0}, 1500);
 	    });
 
 		$('.works-list').find('a').on('click',function(evt) {
