@@ -10,16 +10,69 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../css/menubutton.css">
 
       <script type="text/javascript" src="../js/template.js"></script>
 
-      <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+      <script>
+    		window.dataLayer = window.dataLayer || [];
+    		function gtag(){dataLayer.push(arguments);}
+    		gtag('js', new Date());
+    		gtag('config', 'UA-101324064-1');
+    	</script>
+      <script type="text/javascript" src="../js/template.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+      <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
 
   </head>
 
   <body>
+
+    <div class="menu">
+      <div class="zdo_drawer_bg" style="display: none;"></div>
+
+      <button type="button" class="zdo_drawer_button">
+
+        <span class="zdo_drawer_bar zdo_drawer_circle"></span>
+
+        <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+        <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+        <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+
+        <!-- <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
+        <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span> -->
+      </button>
+
+      <nav class="zdo_drawer_nav_wrapper">
+
+
+          <h1><a href="index.html">Web業界仕事図鑑</a></h1>
+
+          <div class="menu_nav">
+
+            <ul id="menu_nav_left">
+              <li><a href="webdesigner.html">デザイナー</a></li>
+              <li><a href="engineer.html">エンジニア</a></li>
+              <li><a href="marketer.html">マーケター</a></li>
+            </ul>
+
+            <ul id="menu_nav_right">
+              <li><a href="writer.html">ライター</a></li>
+              <li><a href="analyst.html">アナリスト</a></li>
+              <li><a href="director.html">ディレクター</a></li>
+            </ul>
+
+          </div>
+
+          <h1><a href="magazine.html">looky MAGAZINE</a></h1>
+          <h1><a href="lesson.html">looky LESSON</a></h1>
+          <h1><a href="diagnosis.html">looky 性格診断</a></h1>
+
+      </nav>
+    </div>
+<!-- メニューボタン -->
 
     <script type="text/javascript">headerOrange();</script>
 
@@ -36,14 +89,15 @@
               <a href="#">
                 <h2>Web業界仕事図鑑</h2>
 
-              <div class="content-more">
+                <div class="content-more">
                 <div class="more-p">
                   <h3>Web業界の全体像をしろう！</h3>
                 </div>
                 <div class="more-img">
-                  <figure><img src="../img/icon-arrow.png"  alt="arrow"></a></figure>
+                  <figure><img src="../img/icon-arrow.png"  alt="arrow"></figure>
                 </div>
               </div>
+              </a>
           </div>
           <div>
               <figure class="content-img">
@@ -59,9 +113,10 @@
                   <h3>新しい自分に出会えるかも？</h3>
                 </div>
                 <div class="more-img">
-                  <figure><img src="../img/icon-arrow.png"  alt="arrow"></a></figure>
+                  <figure><img src="../img/icon-arrow.png"  alt="arrow"></figure>
                 </div>
               </div>
+              </a>
           </div>
           <div>
               <figure class="content-img">
@@ -76,9 +131,10 @@
                   <h3>初心者向けの新しい記事、更新しました。</h3>
                 </div>
                 <div class="more-img">
-                  <figure><img src="../img/icon-arrow.png"  alt="arrow"></a></figure>
+                  <figure><img src="../img/icon-arrow.png"  alt="arrow"></figure>
                 </div>
               </div>
+            </a>
           </div>
     </div>
 
