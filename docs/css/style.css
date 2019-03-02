@@ -38,26 +38,6 @@ img{
   margin: auto;
 }
 
-/* Slide試して見た1
-.flexslider:hover .flex-prev {
-    left: 5px;
-}
-
-.flex-direction-nav a {
-    width: 30px;
-    height: 45px;
-    margin: -20px 0 0;
-    display: block;
-    background: url(../img/Arrow-right - simple-line-icons.png) no-repeat 0 0;
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    cursor: pointer;
-    text-indent: -9999px;
-    opacity: 0;
-    -webkit-transition: all .3s ease;
-} */
-
 /* card/big-------------------------------- */
 .content-card{
   margin: 30px 16px 0;
@@ -567,12 +547,17 @@ img.twitter_button:active{
   border: 0.1rem solid;
   border-color: rgb(222, 222, 222);
   border-radius: 4px;
+  width: 169px;
+  height: 137px;
+  margin-right: 5px;
 }
 
 .to-magazine-r{
   border: 0.1rem solid;
   border-color: rgb(222, 222, 222);
   border-radius: 4px;
+  width: 169px;
+  height: 137px;
 }
 
 /* webdesigner/lesson-------------------------------- */
@@ -704,22 +689,25 @@ img.twitter_button:active{
 
 .share-button a{
   color: #fff;
+  font-size: 14px;
 }
 
 .fab{
-  font-size: 22px;
+  font-size: 20px;
   margin: 8px;
-  transform: translateY(0.1rem);
+  transform: translateY(0.4rem);
 }
 
 .share-facebook{
   width: 162px;
+  height: 46px;
   background-color: rgb(66, 103, 178);
   border-radius: 5px;
 }
 
 .share-twitter{
   width: 162px;
+  height: 46px;
   color: #FFF;
   background-color: rgb(29, 161, 242);
   border-radius: 5px;
