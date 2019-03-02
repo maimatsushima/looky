@@ -38,6 +38,26 @@ img{
   margin: auto;
 }
 
+/* Slide試して見た1
+.flexslider:hover .flex-prev {
+    left: 5px;
+}
+
+.flex-direction-nav a {
+    width: 30px;
+    height: 45px;
+    margin: -20px 0 0;
+    display: block;
+    background: url(../img/Arrow-right - simple-line-icons.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    text-indent: -9999px;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+} */
+
 /* card/big-------------------------------- */
 .content-card{
   margin: 30px 16px 0;

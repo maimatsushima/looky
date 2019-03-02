@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,8 +11,11 @@
       rel="stylesheet">
       <link rel="stylesheet" href="../css/style.css">
 
-
       <script type="text/javascript" src="../js/template.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
+
+      <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
 
   </head>
 
@@ -23,7 +27,107 @@
 
     <section id="new-content">
 
-      <figure class="content-img">
+        <div class="slides">
+          <div>
+              <figure class="content-img">
+                <img src="../img/img-book.png" alt="content1">
+              </figure>
+
+              <h2>Web業界仕事図鑑</h2>
+
+              <div class="content-more">
+                <div class="more-p">
+                  <h3>Web業界の全体像をしろう！</h3>
+                </div>
+                <div class="more-img">
+                  <figure><a href="#"><img src="../img/icon-arrow.png"  alt="arrow"></a></figure>
+                </div>
+              </div>
+          </div>
+          <div>
+              <figure class="content-img">
+                <img src="../img/img-book.png" alt="content1">
+              </figure>
+
+              <h2>Web業界仕事図鑑</h2>
+
+              <div class="content-more">
+                <div class="more-p">
+                  <h3>Web業界の全体像をしろう！</h3>
+                </div>
+                <div class="more-img">
+                  <figure><a href="#"><img src="../img/icon-arrow.png"  alt="arrow"></a></figure>
+                </div>
+              </div>
+          </div>
+          <div>
+              <figure class="content-img">
+                <img src="../img/img-book.png" alt="content1">
+              </figure>
+
+              <h2>Web業界仕事図鑑</h2>
+
+              <div class="content-more">
+                <div class="more-p">
+                  <h3>Web業界の全体像をしろう！</h3>
+                </div>
+                <div class="more-img">
+                  <figure><a href="#"><img src="../img/icon-arrow.png"  alt="arrow"></a></figure>
+                </div>
+              </div>
+          </div>
+    </div>
+
+    <!-- Slide2(動かんかった)<div class="flexslider looky" style="">
+        <ul class="slides">
+
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide"><a href="#"><img src="../img/img-book.png" alt="content1"></a>
+
+            <h2>Web業界仕事図鑑</h2>
+
+            <div class="content-more">
+              <div class="more-p">
+                <h3>Web業界の全体像をしろう！</h3>
+              </div>
+            </div>
+
+            </li>
+
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide"><a href="#"><img src="../img/img-diagnosis.png" alt="content2"></a>
+
+            <h2>性格診断</h2>
+
+            <div class="content-more">
+              <div class="more-p">
+                <h3>知らない自分に会えるかも…！</h3>
+              </div>
+            </div>
+
+            </li>
+
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide"><a href="#"><img src="../img/img-design.png" alt="content3"></a>
+
+            <h2>おすすめ！デザイン記事</h2>
+
+            <div class="content-more">
+              <div class="more-p">
+                <h3>記事を読んでみよう！</h3>
+              </div>
+            </div>
+
+            </li>
+
+        </ul>
+
+        <ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="flex-active">2</a></li><li><a>3</a></li><li><a>4</a></li></ol>
+
+        <ul>
+        <a class="flex-direction-nav">
+            <li><a class="flex-prev" href="#">Previous</a></li>
+            <li><a class="flex-next" href="#">Next</a></li></ul>
+        </div> -->
+
+      <!--Slide1 <figure class="content-img">
         <img src="../img/img-book.png" alt="content1">
       </figure>
 
@@ -36,7 +140,7 @@
         <div class="more-img">
           <figure><a href="#"><img src="../img/icon-arrow.png"  alt="arrow"></a></figure>
         </div>
-      </div>
+      </div> -->
 
     </section>
 
@@ -301,6 +405,34 @@
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
      <script src="../js/test.js"></script>
+
+<!-- jQuery -->
+
+     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../slick/slick.js"></script>
+
+<!-- SlickJS -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slides').slick({
+          setting-name: setting-value
+        });
+      });
+    </script>
+
+    <script>　
+    $(document).ready(function(){
+        $('.slides').slick({
+        autoplay: true,
+        adaptiveHeight: true,
+        arrows: true,
+        prevArrow:'<div class="prev">PREV</div>',
+        nextArrow:'<div class="next">NEXT</div>'
+        });
+    });
+    </script>
 
   </body>
 
