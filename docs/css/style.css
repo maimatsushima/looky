@@ -38,6 +38,25 @@ img{
   margin: auto;
 }
 
+.white-button{
+  background: #FFF;
+  width: 343px;
+  height: auto;
+  margin: 20px auto 0;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 30px;
+  border: 0.2rem solid;
+  border-color: rgb(34, 39, 65);
+  text-align: center;
+}
+
+.white-button a{
+  color: rgb(34, 39, 65);
+  font-size: 16px;
+  margin: auto;
+}
+
 /* card/big-------------------------------- */
 .content-card{
   margin: 30px 16px 0;
@@ -712,4 +731,71 @@ img.twitter_button:active{
 .page-back{
   text-align: center;
   margin-bottom: 60px;
+}
+
+/* diagnosis/質問画面-------------------------------- */
+#question-top{
+  padding-top: 100px;
+  background-color: rgb(34, 39, 65);
+  color: #FFF;
+  text-align: center;
+}
+
+.question-bar {
+  background: rgb(243, 243, 243);
+  margin: 0px auto 22px;
+  width: 300px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.question-num{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 12px;
+}
+
+.question-num h1{
+  font-size: 24px;
+  margin-right: 2px;
+}
+
+.question-num h2{
+  font-size: 16px;
+}
+
+#question-top h3{
+  font-size: 14px;
+  padding-bottom: 18px;
+}
+
+#question-text{
+  padding: 58px 34px 0;
+}
+
+.question-AB{
+  background: rgb(243, 243, 243);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+}
+
+.question-AB p{
+  text-align: center;
+  padding-top: 7px;
+}
+
+.question-text-AB{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.question-home{
+  text-align: center;
+  font-size: 12px;
+  margin: 24px auto 90px;
 }
