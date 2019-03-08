@@ -799,3 +799,102 @@ img.twitter_button:active{
   font-size: 12px;
   margin: 24px auto 90px;
 }
+
+/* diagnosis/結果画面-------------------------------- */
+#result-top{
+  margin: 93px 16px 0px;
+}
+
+#result-top h2{
+  font-size:  16px;
+}
+
+#result-top h1{
+  font-size:  20px;
+}
+
+.result-img{
+  text-align: center;
+}
+
+.result-img img{
+  width: 312px;
+  height: auto;
+}
+
+.result-title{
+  margin-top: 20px;
+}
+
+#result-text{
+  background: url(../img/bg-result.png);
+  padding: 40px 16px 120px;
+  background-size: 100%;
+}
+
+.result-card{
+  background: #FFF;
+  padding: 40px 15px 40px;
+  border-radius: 4px;
+  margin-bottom: 35px;
+}
+
+.result-card h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.result-card h2{
+  font-size: 16px;
+}
+
+.result-card-more{
+  margin: 30px 0 20px;
+}
+
+
+.result-card p{
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.result-card-img{
+  text-align: right;
+  margin-right: 28px;
+}
+
+.result-card-img img{
+  width: 200px;
+  height: auto;
+}
+
+.result-work{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.result-work-more{
+  width: 125px;
+  height: 40px;
+  text-align: center;
+  background: #151C3E;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+.result-work-more h4{
+  color: #FFF;
+  font-size: 14px;
+  margin: auto;
+}
+
+.result-more{
+  margin-top: 40px;
+}
+
+#result-text .button-more{
+  margin-top: 20px;
+}
