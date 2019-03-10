@@ -741,12 +741,74 @@ img.twitter_button:active{
   text-align: center;
 }
 
-.question-bar {
+/* .question-bar {
   background: rgb(243, 243, 243);
   margin: 0px auto 22px;
   width: 300px;
   height: 10px;
   border-radius: 3px;
+} */
+
+.question-bar {
+  position: relative;
+  height: 10px;
+  display: block;
+  width: 300px;
+  background: rgb(243, 243, 243);
+  border-radius: 3px;
+  margin: 0px auto 22px;
+  overflow: hidden;
+}
+.bar {
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #FF7134;
+    /* -webkit-transition: width .3s linear;
+    transition: width .3s linear; */
+}
+
+.bar-10 {
+  width: 10%;
+}
+
+.bar-20 {
+  width: 20%;
+}
+
+.bar-30 {
+  width: 30%;
+}
+
+.bar-40 {
+  width: 40%;
+}
+
+.bar-50 {
+  width: 50%;
+}
+
+.bar-60 {
+  width: 60%;
+}
+
+.bar-70 {
+  animation: bar-70 1s ease 0s 1 forwards;
+}
+
+.bar-80 {
+  width: 80%;
+}
+
+.bar-90 {
+  width: 90%;
+}
+
+@keyframes bar-70 {
+  0% {width: 0%;}
+  100%{width: 70%;}
 }
 
 .question-num{
