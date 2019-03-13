@@ -784,7 +784,7 @@ img.twitter_button:active{
 
 .result-flag img{
     height: 58px;
-    weight: auto;
+    width: auto;
 }
 
 .result-num{
@@ -906,42 +906,42 @@ img.twitter_button:active{
 }
 
 @keyframes bar-20 {
-  0% {width: 0%;}
+  0% {width: 10%;}
   100%{width: 20%;}
 }
 
 @keyframes bar-30 {
-  0% {width: 0%;}
+  0% {width: 20%;}
   100%{width: 30%;}
 }
 
 @keyframes bar-40 {
-  0% {width: 0%;}
+  0% {width: 30%;}
   100%{width: 40%;}
 }
 
 @keyframes bar-50 {
-  0% {width: 0%;}
+  0% {width: 40%;}
   100%{width: 50%;}
 }
 
 @keyframes bar-60 {
-  0% {width: 0%;}
+  0% {width: 50%;}
   100%{width: 60%;}
 }
 
 @keyframes bar-70 {
-  0% {width: 0%;}
+  0% {width: 60%;}
   100%{width: 70%;}
 }
 
 @keyframes bar-80 {
-  0% {width: 0%;}
+  0% {width: 70%;}
   100%{width: 80%;}
 }
 
 @keyframes bar-90 {
-  0% {width: 0%;}
+  0% {width: 80%;}
   100%{width: 90%;}
 }
 
