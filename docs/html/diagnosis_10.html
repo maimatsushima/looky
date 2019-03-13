@@ -96,12 +96,62 @@
       </section>
 
       <section id="question-choice">
-        <div class="white-button">
+        <div class="white-button addCount">
           <a href="#">Aを選択する</a>
         </div>
         <div class="white-button">
           <a href="#">Bを選択する</a>
         </div>
+
+
+        <script>
+        $(function(){
+
+            // セッションストレージから診断結果の数値を取り出す
+            // 文字列なのでparseIntで数値に変換
+            var resultNum = parseInt(sessionStorage.getItem('shindan'));
+            // console.log('shindan: ' + resultNum);
+
+            // ボタンをクリックしたら
+            $('.white-button').on('click', function(evt){
+
+                //すぐジャンプしないようにする
+                evt.preventDefault();
+
+                //クリックしたボタンにaddCountクラスがあれば
+                if($(this).hasClass('addCount')){
+                    //診断結果に+1
+                    resultNum += 2;
+                }
+
+                // console.log('shindan: ' + resultNum);
+
+                //最後のページで分岐する
+                //診断結果の変数の値でジャンプ先を振り分ける
+                if(resultNum == 0, 1, 2){
+                    location.href = "result_kids.html";
+                } else if(resultNum == 3){
+                    location.href = "result_robot.html";
+                } else if(resultNum == 4){
+                    location.href = "result_cat.html";
+                } else if(resultNum == 5){
+                    location.href = "result_ufo.html";
+                } else if(resultNum == 6){
+                    location.href = "result_comic.html";
+                } else if(resultNum == 7){
+                    location.href = "result_fish.html";
+                } else if(resultNum == 8){
+                    location.href = "result_superman.html";
+                } else if(resultNum == 9, 10){
+                    location.href = "result_god.html";
+                } else if(resultNum == 11, 12){
+                    location.href = "result_nobunaga.html";
+                }
+
+            });
+        });
+        </script>
+
 
       <div class="question-home">
         <a href="diagnosis.html">クイズをやめる</a>

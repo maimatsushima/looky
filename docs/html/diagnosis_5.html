@@ -18,6 +18,7 @@
         gtag('config', 'UA-101324064-1');
       </script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript" src="../js/test.js"></script>
 
   </head>
@@ -96,12 +97,46 @@
       </section>
 
       <section id="question-choice">
-        <div class="white-button">
+        <div class="white-button addCount">
           <a href="#">Aを選択する</a>
         </div>
         <div class="white-button">
           <a href="#">Bを選択する</a>
         </div>
+
+
+        <script>
+          $(function(){
+
+              // セッションストレージを最初にクリアする
+              if(sessionStorage.getItem('shindan')){
+                  sessionStorage.removeItem('shindan');
+              }
+
+              // 診断結果をカウントする数値
+              var resultNum = 0;
+
+
+              // ボタンをクリックしたら
+              $('.white-button').on('click', function(evt){
+
+                  //すぐジャンプしないようにする
+                  evt.preventDefault();
+
+                  //クリックしたボタンにaddCountクラスがあれば
+                  if($(this).hasClass('addCount')){
+                      //診断結果に+1
+                      resultNum += 1;
+                  }
+                  //セッションストレージに診断結果を保存
+                  sessionStorage.setItem('shindan',resultNum);
+
+                  //次のページへジャンプ
+                  location.href = "diagnosis_6.html";
+              });
+          });
+        </script>
+
 
       <div class="question-home">
         <a href="diagnosis.html">クイズをやめる</a>
