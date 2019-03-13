@@ -128,7 +128,7 @@
 
                 //最後のページで分岐する
                 //診断結果の変数の値でジャンプ先を振り分ける
-                if(resultNum == 0, 1, 2){
+                if(resultNum == 0 || resultNum == 1 || resultNum == 2){
                     location.href = "result_kids.html";
                 } else if(resultNum == 3){
                     location.href = "result_robot.html";
@@ -142,9 +142,9 @@
                     location.href = "result_fish.html";
                 } else if(resultNum == 8){
                     location.href = "result_superman.html";
-                } else if(resultNum == 9, 10){
+                } else if(resultNum == 9 || resultNum == 10){
                     location.href = "result_god.html";
-                } else if(resultNum == 11, 12){
+                } else if(resultNum == 11 || resultNum == 12){
                     location.href = "result_nobunaga.html";
                 }
 
