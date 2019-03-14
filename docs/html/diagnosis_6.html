@@ -108,14 +108,10 @@
         <script>
           $(function(){
 
-              // セッションストレージを最初にクリアする
-              if(sessionStorage.getItem('shindan')){
-                  sessionStorage.removeItem('shindan');
-              }
-
-              // 診断結果をカウントする数値
-              var resultNum = 0;
-
+            // セッションストレージから診断結果の数値を取り出す
+            // 文字列なのでparseIntで数値に変換
+            var resultNum = parseInt(sessionStorage.getItem('shindan'));
+            // console.log('shindan: ' + resultNum);
 
               // ボタンをクリックしたら
               $('.white-button').on('click', function(evt){
