@@ -102,10 +102,10 @@ img{
 }
 
 /* header navy-------------------------------- */
-.header-navy{
+/* .header-navy{
   box-shadow: 0px 2px 8px 0px rgba(238,238,238,0.5);
   padding-bottom: 24px;
-}
+} */
 
 .header-navy-title{
   display: flex;
@@ -797,7 +797,7 @@ img.twitter_button:active{
 }
 
 .result-num h1{
-  font-size: 24px;
+  font-size: 20x;
   margin-right: 2px;
 }
 
@@ -806,7 +806,8 @@ img.twitter_button:active{
 }
 
 .result-num h3{
-  font-size: 16px;
+  font-size: 18px;
+  padding-top: 20px;
 }
 
 
